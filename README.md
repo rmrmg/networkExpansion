@@ -1,5 +1,5 @@
 # networkExpansion
-Program for chemical network expansion. The software ilustrates idea described in the paper `Computational synthesis design for controlled-degradation and revalorization.` by Anna Żądło-Dobrowolska et al.
+Program for chemical network expansion. The software ilustrates the idea described in the paper `Computational synthesis design for controlled-degradation and revalorization.` by Anna Żądło-Dobrowolska et al.
 Link to the paper and DOI will be added later.
 ## Usage 
 ### Options:
@@ -8,9 +8,9 @@ Link to the paper and DOI will be added later.
  
  -s   file with substrates
  
- -g   number of synthetic generation to run
+ -g   number of synthetic generations to run
 
- -o   output file, product of reactions together with number of generation with be stored in this file
+ -o   output file, product of reactions together with number of generations with be stored in this file
 
  -v  verbose, print additional info to standard output
   
@@ -21,7 +21,7 @@ both files: reaction.db (example of database) and substrates.smi (list of substr
 
 ## Note about reaction database
 
-Reaction database should be provided as text file where each reaction is in new line. Reaction is store as json string with following keys:
+Reaction database should be provided as text file where each reaction is in new line. Reaction is stored as json string with following keys:
 * idx - reaction unique name/identificator.
 * rxSmarts - reaction SMARTS
 * incompatGroups - list of functional groups, in SMARTS format, which are not allowed in substrates
